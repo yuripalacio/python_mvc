@@ -7,6 +7,8 @@ disable=
       C0209, # Consider-using-f-string
       E0015, # Unrecognized-oprion
       W0703, # Catching too general exception
+      R0022, # Useless-option-value
+      W0012, # unknown-option-value
 
 # A comma-separated list of package or module names from where C extensions may
 # be loaded. Extensions are loading into the active Python interpreter and may
@@ -215,11 +217,11 @@ expected-line-ending-format=
 ignore-long-lines=^\s*(# )?<?https?://\S+>?$
 
 # Number of spaces of indent required inside a hanging or continued line.
-indent-after-paren=4
+indent-after-paren=2
 
 # String used as indentation unit. This is usually "    " (4 spaces) or "\t" (1
 # tab).
-indent-string='    '
+indent-string='  '
 
 # Maximum number of characters on a single line.
 max-line-length=100
